@@ -18,7 +18,7 @@ class QrisController extends ResourceController
                 $codeSignature = hash_hmac('sha512', $key, $token);
                 $data = json_encode([
                     'reference' => 'qrisstestCRONOS2-MPAY' . time(),
-                    'amount' => 1000,
+                    'amount' => 10,
                     'expiryMinutes' => 30,
                     'viewName' => 'Antzyn',
                     'additionalInfo' => [
