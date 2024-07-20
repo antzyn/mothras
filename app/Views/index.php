@@ -39,7 +39,7 @@
 </head>
 <body class="bg-gray-100 col-md-5 mx-auto">
 
-    <!-- Header -->
+    <!-- Headers -->
     <header class="bg-blue-600 p-4 shadow-lg mt-5">
         <div class="container mx-auto text-center">
             <h1 class="text-white text-3xl font-bold">Generate QRIS Cronosengine</h1>
